@@ -1,0 +1,137 @@
+body{
+    margin: 0 15%;
+    box-shadow: 0 0 50px;
+}
+/* Header */
+header{
+    background-color: black;
+}
+
+header nav{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+header .logo{
+    flex: 1;
+}
+header ul {
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+header ul a {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+}
+header ul span {
+    margin-top: 13px;
+    font-size: 10px;
+}
+/* Pack */
+header .pack{
+    background-color: #334d5c;
+    display: flex;
+    align-items: center;
+    color: white;
+    padding: 30px 50px;
+}
+
+header .pack div{
+    flex: 1;
+    text-align: center;
+    
+}
+header .pack h1{
+    flex: 2;
+    font-size: 55px;
+    text-transform: capitalize;
+}
+
+header .pack span{
+    font-size: 40px;
+}
+
+/* Fin header */
+
+/* All section */
+.eclosion h1 {
+    background-color:#334d5c; 
+    margin: 15px auto;
+    max-width: max-content;
+    font-size: 55px;
+    padding: 10px 30px;
+    color: white;
+    font-weight: normal;
+    
+}
+
+.section-1-contenu{
+    display: flex;
+    padding: 10px 60px;
+}
+
+.section-1-contenu .image{
+    flex: 1;
+}
+.section-1-contenu .contenu{
+    flex: 2;
+    font-size: 20px;
+}
+
+.beige {
+    background-color:#eae3d6; 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 40px 60px;
+}
+
+.beige .contenu{
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.beige .contenu img{
+    height: 100px;
+}
+.beige .contenu span{
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+/* End section */
+
+/* Footer */
+footer{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    padding: 40px;
+    position: relative;
+}
+footer .contenu .icones{
+    display: flex;
+    justify-content: center;
+    
+}
+footer img{
+    width: 55px; height: 55px;
+    margin-right: 20px;
+    
+}
+
+footer span{
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
